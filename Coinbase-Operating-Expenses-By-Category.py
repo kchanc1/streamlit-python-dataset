@@ -71,6 +71,7 @@ fig_stack.update_layout(
                font=dict(size=22, family="Arial", color="black")),
     xaxis=dict(tickfont=dict(size=14, family="Arial", color="darkblue")),
     yaxis=dict(tickfont=dict(size=14, family="Arial", color="darkblue")),
+    autosize=True,
     legend=dict(title="Category", font=dict(size=12, family="Arial"))
 )
 
@@ -91,3 +92,4 @@ config = {
 
 st.plotly_chart(fig_stack, use_container_width=True, config=config)
 ## st.plotly_chart(fig_group, use_container_width=True, config=config)
+st.markdown("Visit [StockDividendScreener.com](https://www.StockDividendScreener.com) for more statistics")

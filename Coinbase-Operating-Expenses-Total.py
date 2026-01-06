@@ -35,3 +35,5 @@ config = {
 }
 
 st.plotly_chart(fig, width="stretch", config=config)
+st.markdown("Visit [StockDividendScreener.com](https://www.StockDividendScreener.com) for more statistics")
+

@@ -40,3 +40,4 @@ config = {
 
 # Correct Streamlit call
 st.plotly_chart(fig, use_container_width=True, config=config)
+st.markdown("Visit [StockDividendScreener.com](https://www.StockDividendScreener.com) for more statistics")
