@@ -3,8 +3,8 @@ import plotly.express as px
 import pandas as pd
 
 data = {
-    "Fiscal Year": ["FY2021", "FY2022", "FY2023", "FY2024"],
-    "Operating Expenses To Net Revenue Ratio": [76.1, 64.8, 187.5, 111.7]
+    "Fiscal Year": ["FY2020", "FY2021", "FY2022", "FY2023", "FY2024"],
+    "Operating Expenses To Net Revenue Ratio": [76.1, 64.8, 187.5, 111.7, 68.8]
 }
 
 df = pd.DataFrame(data)
