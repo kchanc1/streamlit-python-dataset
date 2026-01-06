@@ -6,6 +6,7 @@ data = {
     "Fiscal Year": ["FY2021", "FY2022", "FY2023", "FY2024"],
     "Operating Expenses Growth Rates": [448.4, 24.0, -44.6, 32.4]
 }
+
 df = pd.DataFrame(data)
 
 fig = px.bar(
